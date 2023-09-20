@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Likes</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="network">Network</h1>
+    </div>
+    <div>
+        <h1 id="titulo">Your Feed</h1>
+    </div>
+    <div class="container-principal">
+        <div class="izquierda">
+            <div class="profile">
+                <img id="user" src="./img/user-circle.png" alt="user profile">
+                <p><a href="">Add an avatar</a></p>
+                <h1>James Doe</h1>
+            </div>
+        </div>
+        <div class="derecha">
+            <div class="cards">
+                <div class="encabezado">
+                    <h1>Neil M</h1>
+                    <h3 id="like-user">9 like(s)</h3>
+                    <button class="btn-like" id="userNeil" onclick="likeUsers(this)">Like</button>
+                </div>
+                <div class="texto">
+                    <p>I just set up this new discord bot, let me know what you all think.<a href="#">link</a></p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="encabezado">
+                    <h1>Nichole K</h1>
+                    <h3 id="like-user">12 like(s)</h3>
+                    <button class="btn-like" id="userNichole" onclick="likeUsers(this)">Like</button>
+                </div>
+                <div class="texto">
+                    <p>Just finished my <a href="">next comic</a>, check it out.</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="encabezado">
+                    <h1>Jim R</h1>
+                    <h3 id="like-user">9 like(s)</h3>
+                    <button class="btn-like" id="userJim" onclick="likeUsers(this)">Like</button>
+                </div>
+                <div class="texto">
+                    <p>I can't stop listening to the <a href="">new album</a>.Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
